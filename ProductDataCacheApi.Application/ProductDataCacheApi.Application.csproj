@@ -7,8 +7,12 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\ProductDataCacheApi.Domain\ProductDataCacheApi.Domain.csproj" />
+    <ProjectReference Include="..\ProductDataCacheApi.Infrastructure\ProductDataCacheApi.Infrastructure.csproj" />
     <ProjectReference Include="..\ProductDataCacheApi.Shared\ProductDataCacheApi.Shared.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="AutoMapper" Version="16.2.0" />
   </ItemGroup>
 
 </Project>
