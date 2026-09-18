@@ -1,4 +1,7 @@
 <Solution>
+  <Folder Name="/Database/">
+    <File Path="schema.sql" />
+  </Folder>
   <Project Path="ProductDataCacheApi.API/ProductDataCacheApi.API.csproj" />
   <Project Path="ProductDataCacheApi.Application/ProductDataCacheApi.Application.csproj" />
   <Project Path="ProductDataCacheApi.Domain/ProductDataCacheApi.Domain.csproj" />
