@@ -1,0 +1,23 @@
+﻿<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>net10.0</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.AspNetCore.OpenApi" Version="10.0.11" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="Controllers\" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\ProductDataCacheApi.Application\ProductDataCacheApi.Application.csproj" />
+    <ProjectReference Include="..\ProductDataCacheApi.Domain\ProductDataCacheApi.Domain.csproj" />
+    <ProjectReference Include="..\ProductDataCacheApi.Infrastructure\ProductDataCacheApi.Infrastructure.csproj" />
+  </ItemGroup>
+
+</Project>

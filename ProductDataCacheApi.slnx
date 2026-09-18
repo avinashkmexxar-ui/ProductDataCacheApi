@@ -1,0 +1,7 @@
+<Solution>
+  <Project Path="ProductDataCacheApi.API/ProductDataCacheApi.API.csproj" />
+  <Project Path="ProductDataCacheApi.Application/ProductDataCacheApi.Application.csproj" />
+  <Project Path="ProductDataCacheApi.Domain/ProductDataCacheApi.Domain.csproj" />
+  <Project Path="ProductDataCacheApi.Infrastructure/ProductDataCacheApi.Infrastructure.csproj" />
+  <Project Path="ProductDataCacheApi.Shared/ProductDataCacheApi.Shared.csproj" />
+</Solution>
